@@ -4,8 +4,15 @@ public class Car {
     public void setBrand(String brand){
     this.brand=brand;
     }
-
     public String getBrand() {
         return brand;
+    }
+
+    public String getColour() {
+        return colour;
+    }
+
+    public void setColour(String colour) {
+        this.colour = colour;
     }
 }

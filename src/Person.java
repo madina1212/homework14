@@ -1,6 +1,7 @@
 public class Person {
     protected String name;
     String designation;
+    private String age;
 
     public Person(String name, String designation) {
         this.name = name;
@@ -39,5 +40,13 @@ public class Person {
                 "name='" + name + '\'' +
                 ", designation='" + designation + '\'' +
                 '}';
+    }
+
+    public String getAge() {
+        return age;
+    }
+
+    public void setAge(String age) {
+        this.age = age;
     }
 }
